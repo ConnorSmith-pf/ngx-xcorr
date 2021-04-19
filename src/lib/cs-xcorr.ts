@@ -1,11 +1,15 @@
+import { Injectable } from '@angular/core';
 import { Buffer } from 'buffer';
 import { toBuffer } from './helpers/to-buffer';
 import { XCorr } from './interfaces/XCorr.model';
 
 import * as lib from 'cs-xcorr/xcorr.js';
 
-export class CsXCorr {
-    public xCorrLib: any = lib;
+@Injectable({
+    providedIn: 'root',
+})
+export class CsXCorrService {
+    private xCorrLib: any = lib;
 
     public xCorr(dataset1: Array<number> | Buffer, dataset2: Array<number> | Buffer): XCorr {
         const [buffer1, buffer2] = [
