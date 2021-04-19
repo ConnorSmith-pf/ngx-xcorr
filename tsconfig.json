@@ -20,7 +20,10 @@
       ]
     },
     "sourceMap": true,
-    "target": "es2015"
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

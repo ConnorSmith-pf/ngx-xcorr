@@ -1,6 +1,6 @@
 {
   "name": "ngx-xcorr",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "cs-xcorr wrapper for Angular.",
   "author": "Connor Smith <connor.github@gmail.com>",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build ngx-xcorr --prod",
+    "build:publish": "npm run build && cd ./dist/ngx-xcorr && npm publish",
     "test": "ng test ngx-xcorr --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
