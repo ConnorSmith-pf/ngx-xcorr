@@ -22,7 +22,7 @@
     "e2e": "ng e2e"
   },
   "peerDependencies": {
-    "cs-xcorr": "^1.0.0",
+    "cs-xcorr": "^1.0.1",
     "dsp.js": "^1.0.1"
   },
   "dependencies": {
