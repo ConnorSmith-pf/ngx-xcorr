@@ -5,7 +5,7 @@
     "ngx-xcorr": {
       "projectType": "library",
       "root": "src",
-      "sourceRoot": "lib",
+      "sourceRoot": "src",
       "prefix": "",
       "architect": {
         "build": {
